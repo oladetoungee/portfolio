@@ -10,9 +10,9 @@
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url('../img/_MG_0743.jpg') center top;
-  background-size: cover;
-
+    url('../img/IMG_20201018_103125_985\ \(1\).jpg') center top;
+    background-size: contain;
+    background-repeat: no-repeat;
   &__name {
     font-size: 5rem;
     padding-bottom: 1rem;
@@ -24,4 +24,20 @@
       font-weight: 700;
     }
   }
+}
+h2 {
+  line-height: .5rem;
+  margin-top: 1rem;
+}
+.hng-container {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.hng {
+  width: 3em;
+  margin-top: 2rem;
+}
+.hng-site {
+  color: $secondary-color;
+  font-weight: 700;
 }
