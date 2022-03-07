@@ -5,13 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: 
-    linear-gradient(
+  background: linear-gradient(
       to right,
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url('../img/_MG_0743.jpg') center top;
+    url("../img/_MG_0743.jpg") center top;
   background-size: cover;
 
   h2 {
@@ -24,6 +23,68 @@
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     font-size: 1.5rem;
+
+    // a {
+    //   background-color: #ff652f;
+    //   color: #ffff;
+    //   font-size: 1rem;
+    //   padding: 1rem;
+    // }
+  }
+  &__resume {
+    
+    color: black;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 16px;
+    position: relative;
+    margin: auto;
+    padding: 22px 22px;
+    transition: all 0.2s ease;
+    span {
+      position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    }
+    i {
+    
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: black;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      border-radius: 28px;
+      background: rgba(#ff652f, 0.5);
+      width: 56px;
+      height: 56px;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        background: rgba(#ff652f, 1);
+      }
+
+      &:active {
+        transform: scale(0.96);
+      }
+    }
   }
 
   .social-icons {
