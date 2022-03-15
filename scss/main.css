@@ -32,7 +32,6 @@
 }
 
 h2 {
-  line-height: .5rem;
   margin-top: 1rem;
 }
 
@@ -552,6 +551,12 @@ h2 {
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
     height: 50vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home__name {
+    font-size: 3rem;
   }
 }
 
