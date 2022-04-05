@@ -23,8 +23,10 @@
     }
   }
 
+ 
   &__items {
-    width: 60vw;
+    width: 170vh;
+    
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -36,6 +38,7 @@
     border-bottom: 5px solid $secondary-color;
     overflow: hidden;
     cursor: pointer;
+   
 
     img {
       width: 100%;

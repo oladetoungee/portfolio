@@ -313,7 +313,7 @@ h2 {
 }
 
 .projects__items {
-  width: 60vw;
+  width: 170vh;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
