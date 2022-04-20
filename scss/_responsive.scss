@@ -54,11 +54,17 @@
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
+  footer {
+    bottom: 3rem;
+  }
 }
 
 @include media-xl {
   .projects__bio-image {
-    height: 50vh;
+    height: 30vh;
+  }
+  footer {
+    bottom: 3rem;
   }
   // .skills {
   //   line-height: normal;
@@ -69,6 +75,19 @@
   .home__name {
     font-size: 3rem;
   
+    }
+    footer {
+      bottom: 3rem;
+    }
+    // .skills {
+    // line-height: normal;
+    // }
+}
+
+@media screen and (max-width: 300px) {
+  
+    footer {
+      bottom: 3rem;
     }
     // .skills {
     // line-height: normal;

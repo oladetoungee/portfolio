@@ -313,7 +313,7 @@ h2 {
 }
 
 .projects__items {
-  margin: 2rem auto 0 auto;
+  margin: 2rem 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -545,17 +545,32 @@ h2 {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
+  footer {
+    bottom: 3rem;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
-    height: 50vh;
+    height: 30vh;
+  }
+  footer {
+    bottom: 3rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .home__name {
     font-size: 3rem;
+  }
+  footer {
+    bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  footer {
+    bottom: 3rem;
   }
 }
 
