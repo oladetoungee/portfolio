@@ -313,7 +313,6 @@ h2 {
 }
 
 .projects__items {
-  width: 170vh;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -525,8 +524,8 @@ h2 {
     height: 40vh;
   }
   .projects__items {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
   .projects .text-secondary {
     font-size: 3rem;
