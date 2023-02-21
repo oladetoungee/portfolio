@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/IMG_20201018_103125_985 (1).jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/WhatsApp Image 2023-02-21 at 11.11.08 PM.jpeg") center top;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ h2 {
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/_MG_0743.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/WhatsApp Image 2023-02-21 at 11.16.20 PM.jpeg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -295,7 +295,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/_MG_0743.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/WhatsApp Image 2023-02-21 at 11.11.08 PM.jpeg") center top;
   background-size: cover;
 }
 .contact h2 {
